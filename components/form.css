@@ -1,0 +1,46 @@
+.form {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+  gap: 1rem;
+  min-height: 70vh;
+}
+
+.form__headline {
+  background-color: #ddd6fe;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form__question,
+.form__answer,
+.form__tag,
+.form__button {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.form__button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #ddd6fe;
+  padding: 1.5rem;
+  align-items: center;
+  border: none;
+}
+.form__button:active {
+  background-color: #8800ff;
+  color: white;
+}
+
+.form__answer__textarea,
+.form__question__textarea,
+.form__tag__textarea {
+  height: 6rem;
+}

@@ -1,0 +1,20 @@
+.question__side__header,
+.bookmarks__side__header,
+.form__side__header,
+.profil__side__header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem;
+  background-color: #c3b7f5;
+  font-size: 1.1em;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

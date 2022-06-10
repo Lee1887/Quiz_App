@@ -6,7 +6,7 @@
 
 .question {
   width: 350px;
-background-color:#c2ea4a;
+  background-color: #c2ea4a;
   border: 0.3rem solid black;
   display: flex;
   flex-direction: column;
@@ -34,10 +34,9 @@ background-color:#c2ea4a;
   background-color: #50de6c;
   position: absolute;
   width: 50px;
-  right:10px;
-  top: -15px;px;
+  right: 10px;
+  top: -15px;
   border-radius: 50%;
-  
 }
 
 .question__article {

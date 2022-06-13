@@ -1,0 +1,37 @@
+footer {
+  width: 100%;
+  background-color: #ddd6fe;
+  height: 8rem;
+  _padding: 1.5rem;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__icon {
+  width: 25%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__button {
+  background-color: #b5dab9;
+  border: none;
+  padding: 1.5rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.nav__background--activ {
+  background-color: #dd551a;
+}

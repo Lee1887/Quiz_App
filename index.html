@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz-App</title>
+</head>
+<body>
+  <body data-js="content">
+    <!-- Quiz-App -->
+
+    <div class="question__side" data-js="question__side">
+      <header class="question__side question__side__header">
+        <h1>QUIZ-APP-Diamond Edition</h1>
+      </header>
+      <div class="question__container"></div>
+    </div>
+
+    <!-- Bookmarks -->
+
+    <div class="bookmark__side hide" data-js="bookmark__side">
+      <header class="bookmark__side bookmarks__side__header">
+        <h1>THE BOOKMARKS</h1>
+      </header>
+      <div class="question__container">
+        <section class="question" data-js="question">
+          <div>
+            <h2 class="question__headline">THE Question</h2>
+            <div data-js="question__bookmark__button">
+              <button
+                class="question__bookmark__button"
+                data-js="question__bookmark__button__js"
+              >
+                <img
+                  src="./Icon and Images/bookmark-ribbon-svgrepo-com.svg"
+                  alt="bookmark icon"
+                  class="question__bookmark"
+                  data-js="question__bookmark__js"
+                />
+              </button>
+            </div>
+          </div>
+          <article class="question__article">
+            <p class="question__question">
+              Which three computer games were the most popular in 2021?
+            </p>
+
+            <button
+              class="question__button question__button--hide"
+              data-js="question__button__show__js"
+            >
+              Show the Answer
+            </button>
+            <button
+              class="question__button hide"
+              data-js="question__button__hide__js"
+            >
+              Hide the Answer
+            </button>
+            <p class="question__answer hide" data-js="question__answer__js">
+              GTA V, Among Us, and League of Legends are among them. 
+            </p>
+          </article>
+          <ul class="question__tags">
+            <li class="question__onetag">Gaming</li>
+            <li class="question__onetag">Politics</li>
+            <li class="question__onetag">Computer Science</li>
+            <li class="question__onetag">History</li>
+          </ul>
+        </section>
+        <section class="question" data-js="question">
+          <div>
+            <h2 class="question__headline">Question</h2>
+            <div data-js="question__bookmark__button">
+              <button
+                class="question__bookmark__button"
+                data-js="question__bookmark__button__js"
+              >
+                <img
+                src="./Icon and Images/bookmark-ribbon-svgrepo-com.svg"
+                  alt="bookmark icon"
+                  class="question__bookmark"
+                  data-js="question__bookmark__js"
+                />
+              </button>
+            </div>
+          </div>
+          <article class="question__article">
+            <p class="question__question">
+              What are the names of the current leaders of the United States, France, England, Austria, and Canada?
+            </p>
+
+            <button
+              class="question__button question__button--hide"
+              data-js="question__button__show__js"
+            >
+            Show the Answer
+            </button>
+            <button
+              class="question__button hide"
+              data-js="question__button__hide__js"
+            >
+              Hide the Answer
+            </button>
+            <p class="question__answer hide" data-js="question__answer__js">
+              Joe Biden, Emmanuel Macron, Boris Johnson, Karl Nehammer, and Justin Trudeau are the current heads of state.
+            </p>
+          </article>
+          <ul class="question__tags">
+            <li class="question__onetag">Gaming</li>
+            <li class="question__onetag">Politics</li>
+            <li class="question__onetag">Computer Science</li>
+            <li class="question__onetag">History</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- form -->
+    <div class="form__side hide" data-js="form__side">
+      <header class="form__side form__side__header">
+        <h1>My CREATE</h1>
+      </header>
+
+      <div class="form__container">
+        <form class="form">
+          <fieldset class="form__question">
+            <label class="form__headline" for="add question">
+              Add the Question
+            </label>
+            <textarea
+              class="form__question__textarea"
+              name="add question"
+              id="add question"
+              placeholder="Add your question"
+            ></textarea>
+          </fieldset>
+          <fieldset class="form__answer">
+            <label class="form__headline" for="add answer"> Add the Answer </label>
+            <textarea
+              class="form__answer__textarea"
+              name="add answer"
+              id="add answer"
+              placeholder="Add your answer"
+            ></textarea>
+          </fieldset>
+          <fieldset class="form__tag">
+            <label class="form__headline" for="add tags">Add theTags</label>
+            <textarea
+              class="form__tag__textarea"
+              name="add tags"
+              id="add tags"
+              placeholder="Add your tags divided by comma"
+            ></textarea>
+          </fieldset>
+          <button class="form__button">The SUBMIT</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- profil -->
+
+    <div class="profil__side hide" data-js="profil__side">
+      <header class="profil__side profil__side__header">
+        <h1>QUIZ-APP</h1>
+      </header>
+      <div class="profil__container">
+        <main class="profil">
+          <div class="profil__picturename">
+            <img
+              class="profil__picture"
+              src="./Icon and Images/TheQueen.jpeg"
+              alt="portrait"
+            />
+            <h2 class="profil__name">Queen Elizabeth (Alexandra Mary) II.</h2>
+          </div>
+          <article class="profil__text">
+            Since 1952, Elizabeth II has reigned over 16 sovereign states known as the Commonwealth Realms.
+            She is the Commonwealth of Nations' leader.
+            She has been the world's oldest reigning monarch since 2015 and is currently the longest reigning head of state.
+            Throughout her reign, she has managed to maintain the monarchy's importance in Britain.
+            In her spare time, Queen Elizabeth II enjoys equestrian sports and attends horse races on a regular basis.
+            She also cares deeply about dogs, particularly Corgis. 
+          </article>
+
+          <section class="skills">
+            <h3 class="skills__headline">Skills of the Queen</h3>
+            <ul class="skills__tags">
+              <li class="skills__onetag">Commitment</li>
+              <li class="skills__onetag">Embrace Change</li>
+              <li class="skills__onetag">Hard Work</li>
+              <li class="skills__onetag">Respect Others</li>
+            </ul>
+          </section>
+          <button class="skills__button">Logout</button>
+        </main>
+      </div>
+    </div>
+    <footer>
+      <nav class="footer">
+        <a class="footer__icon" href="./index.html"
+          ><img src="./Icon and Images/home-svgrepo-com.svg" alt="home icon"
+        /></a>
+        <a class="footer__icon" href="./bookmarks.html"
+          ><img
+            src="./Icon and Images/bookmark-ribbon-svgrepo-com.svg"
+            alt="bookmark icon"
+        /></a>
+        <a class="footer__icon" href="./create.html"
+          ><img src="./Icon and Images/notes-svgrepo-com.svg" alt="Notes icon"
+        /></a>
+        <a class="footer__icon" href="./profile.html"
+          ><img
+            src="./Icon and Images/profile-svgrepo-com.svg"
+            alt="Profile icon"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
+
+</body>
+</html>

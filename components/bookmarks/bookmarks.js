@@ -1,9 +1,9 @@
 export default function BookmarkButton(bookmarkButton) {
   const bookmark = bookmarkButton.querySelector(
-    '[data-js="question__bookmark__js"]'
+    '[data-js="question__bookmark"]'
   );
   const bookmarkIcon = bookmarkButton.querySelector(
-    '[data-js="question__bookmark__button__js"]'
+    '[data-js="question__bookmark__button]'
   );
 
   bookmarkIcon.addEventListener("click", () => {

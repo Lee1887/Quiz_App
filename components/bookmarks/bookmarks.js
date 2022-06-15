@@ -6,7 +6,7 @@ export default function BookmarkButton(bookmarkButton) {
     '[data-js="question__bookmark__button]'
   );
 
-  bookmarkIcon.addEventListener("click", () => {
-    bookmark.classList.toggle("question__bookmark--save");
+  bookmarkIcon.addEventListener('click', () => {
+    bookmark.classList.toggle('question__bookmark--save');
   });
 }

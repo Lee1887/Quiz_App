@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Lee1887/Quiz_App#readme",
   "devDependencies": {
+    "eslint": "^8.17.0",
     "htmlhint": "^1.1.4",
     "prettier": "^2.7.0",
     "stylelint": "^14.9.1",

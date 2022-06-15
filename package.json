@@ -1,0 +1,25 @@
+{
+  "name": "good-quiz-app",
+  "version": "1.0.0",
+  "description": "quiz app about politics",
+  "main": "index.js",
+  "scripts": {
+    "scripts": { {
+      "htmlhint": "npx htmlhint \"**/*.html\"",
+    };
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lee1887/Quiz_App.git"
+  },
+  "author": "Luca Staudt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lee1887/Quiz_App/issues"
+  },
+  "homepage": "https://github.com/Lee1887/Quiz_App#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
